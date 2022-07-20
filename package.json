@@ -1,0 +1,32 @@
+{
+  "name": "dirtree-master",
+  "version": "0.0.1",
+  "description": "生成目录树结构md文件",
+  "main": "dirtree.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-install": "node ./src/dirtree"
+  },
+  "keywords": [
+    "markdown",
+    "direction",
+    "tree",
+    "生成目录树"
+  ],
+  "author": "A beginner",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "bin": {
+    "mddir": "./src/dirtree.js"
+  },
+  "homepage": "https://xxx",
+  "bugs": {
+    "url": "https://xxx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://xxx"
+  }
+}
