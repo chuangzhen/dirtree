@@ -1,5 +1,5 @@
 {
-  "name": "dirtree-master",
+  "name": "dirtree",
   "version": "0.0.1",
   "description": "生成目录树结构md文件",
   "main": "dirtree.js",
@@ -9,7 +9,7 @@
   },
   "keywords": [
     "markdown",
-    "direction",
+    "directory",
     "tree",
     "生成目录树"
   ],
