@@ -1,4 +1,3 @@
-/** asdasd */
 // #!/usr/bin/env node
 
 

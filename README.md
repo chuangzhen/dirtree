@@ -40,3 +40,26 @@
     node ./node_modules/dirtree/src/dirtree   [dir_path] | -h/-help
 
 ```
+
+###### 4.效果
+```
+┌─components
+| ├─ AuthComponents
+| | ├─ AuthButton.tsx # 权限按钮组件
+| | ├─ AuthContainer.tsx # 自定义权限按钮并支持二次确认弹窗
+| | ├─ AuthLink.tsx # 为表格便捷操作的权限text组件（只有拥有权限才能触发text点击事件）
+| | └─ AuthMenuItem.tsx # 权限菜单按钮 
+| ├─ Authorized
+| | ├─ Authorized.tsx # 权限校验容器组件 
+| | ├─ CheckPermissions.tsx # 通用权限检查方法 
+| | ├─ PromiseRender.jsx # 异步权限校验组件 
+| | ├─ Secured.jsx # 用于判断是否拥有权限访问此 view 权限 
+| | └─ renderAuthorize.ts # 更新权限方法 
+| ├─ CustomSelectors
+| | ├─ TagSelector.tsx # 标签选择器
+| | ├─ ThemeSelect.tsx # 主题选择组件
+| | └─ index.tsx # 导出ThemeSelect、TagSelector 组件
+| ├─ ProTable
+| | └─ index.tsx # ProTable 基于ProTable二次封装表格组件 
+
+```
